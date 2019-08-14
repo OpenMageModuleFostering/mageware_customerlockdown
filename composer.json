@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/MageWare_CustomerLockdown",
+    "type": "magento-module",
+    "license": "GPL-v3.0",
+    "homepage": "",
+    "description": "Allows to suspend customer accounts.",
+    "authors": [
+    {
+        "name": "MageWare",
+        "email": "magentocommerce@mageware.co"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

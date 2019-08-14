@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageWare_CustomerLockdown>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Customer />
+                <Mage_Adminhtml />
+            </depends>
+        </MageWare_CustomerLockdown>
+    </modules>
+</config>

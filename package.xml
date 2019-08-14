@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MageWare_CustomerLockdown</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl.html">GPL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allows to suspend customer accounts.</summary>
+    <description>Allows to suspend customer accounts.</description>
+    <notes>Public release-1.0.0.0</notes>
+    <authors><author><name>MageWare</name><user>mageware</user><email>magentocommerce@mageware.co</email></author></authors>
+    <date>2013-03-30</date>
+    <time>14:11:36</time>
+    <contents><target name="magecommunity"><dir name="MageWare"><dir name="CustomerLockdown"><dir name="Helper"><file name="Data.php" hash="88b2e4df974eca1cb634d0dc318ebe2e"/></dir><dir name="Model"><file name="Observer.php" hash="db9e10c8e617a772d9855fcb77b813f5"/><dir name="Resource"><file name="Setup.php" hash="280d6078581b87bed3e5e5242e33d39e"/></dir></dir><dir name="etc"><file name="config.xml" hash="5d403117ffa0338d727bc42e5ea4242e"/></dir><dir name="sql"><dir name="customerlockdown_setup"><file name="install-1.0.0.0.php" hash="3823a857b0dd7a486dc305d1715c6ced"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MageWare_CustomerLockdown.xml" hash="f71bd6392569939baad704f52f718d80"/></dir></target><target name="magelocale"><dir name="en_US"><file name="MageWare_CustomerLockdown.csv" hash="aef675b49a07a7211bffd5e10f1a80ca"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php><package><name>Mage_All_Latest</name><channel>community</channel><min>1.6.0.0</min><max>1.7.0.2</max></package></required></dependencies>
+</package>
